@@ -1,4 +1,4 @@
-# PokePi
+# PokePi - WIP
 Flexible Pokedex Framework for Raspberry Pi
 
 ## Build
