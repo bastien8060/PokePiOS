@@ -10,23 +10,16 @@ git clone https://github.com/bastien8060/PokePi
 cd PokePi
 ```
 
-Make sure submodules are initialized:
-
-```sh
-git submodule update --init
-```
-
 Change to the top-level Buildroot directory:
 
 ```sh
 cd buildroot
 ```
 
-Use initialized configurations, including the defconfig and this external directory, and compile:
+Use initialized configurations to compile:
 
 ```sh
-cp ../.config .
-make BR2_EXTERNAL=../ all
+make all
 ```
 
-This may take a couple hours to do from scratch, depending on the speed of your machine.
+This may take anywhere from 10min to 30min or even a couple hours to do from scratch, depending on the speed of your machine.
