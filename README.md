@@ -3,6 +3,13 @@ Flexible Pokedex Framework for Raspberry Pi
 
 ## Build
 
+Download repo + navigate to it:
+
+```sh
+git clone https://github.com/bastien8060/PokePi
+cd PokePi
+```
+
 Make sure submodules are initialized:
 
 ```sh
