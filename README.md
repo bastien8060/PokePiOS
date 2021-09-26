@@ -25,6 +25,7 @@ cd buildroot
 Use initialized configurations, including the defconfig and this external directory, and compile:
 
 ```sh
+cp ../.config .
 make BR2_EXTERNAL=../ all
 ```
 
