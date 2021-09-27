@@ -1,5 +1,11 @@
 # PokePi - WIP
-Flexible Pokedex Framework for Raspberry Pi
+Flexible Pokedex Framework for Raspberry Pi. It lets you run and build a DIY PokeDex which uses Machine Learning to recognize Pokemons.
+
+To ~~run it~~, you will first need to build it.
+
+> Warning: At the moment this project does not work. It will be only released later. This project is still far from being released. The following only builds the top OS, which PokePi is going to run on. Not PokePi itself.
+
+> Soon, you will have the option to build PokePi on top of another Linux Distro/build, or build it, part of an optimized Linux build. Prebuilt binaries and images will also be released on this repo.
 
 ## Build
 
