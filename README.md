@@ -22,7 +22,7 @@ Change to the top-level Buildroot directory:
 cd buildroot
 ```
 
-Use initialized configurations to compile:
+Use initialized configurations to compile PokePi:
 
 ```sh
 make all
