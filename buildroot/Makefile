@@ -105,6 +105,10 @@ ifneq ($(firstword $(sort $(RUNNING_MAKE_VERSION) $(MIN_MAKE_VERSION))),$(MIN_MA
 $(error You have make '$(RUNNING_MAKE_VERSION)' installed. GNU make >= $(MIN_MAKE_VERSION) is required)
 endif
 
+rm -rf overlays_update/target/root/PokePiCore
+mkdir overlays_update/target/root/
+git clone https://github.com/bastien8060/PokePi-Core overlays_update/target/root/PokePiCore
+
 # absolute path
 TOPDIR := $(CURDIR)
 CONFIG_CONFIG_IN = Config.in
