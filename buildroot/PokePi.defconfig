@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2020.02.2-ga3fa8ef7 Configuration
+# Buildroot 2020.02.2-gbf599cf1 Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_9=y
@@ -512,6 +512,11 @@ BR2_PACKAGE_HAS_SKELETON=y
 BR2_PACKAGE_PROVIDES_SKELETON="skeleton-init-sysv"
 BR2_PACKAGE_SKELETON_INIT_COMMON=y
 BR2_PACKAGE_SKELETON_INIT_SYSV=y
+
+#
+# PokePi
+#
+BR2_PACKAGE_POKEPI=y
 
 #
 # Audio and video applications
