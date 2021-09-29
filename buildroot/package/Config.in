@@ -10,8 +10,7 @@ menu "Target packages"
 	source "package/skeleton-init-sysv/Config.in"
 
 menu "PokePi"
-	source "package/PokePi/config.in"
-	source "package/gcc/config.in"
+	source "package/PokePi/Config.in"
 endmenu
 
 menu "Audio and video applications"
