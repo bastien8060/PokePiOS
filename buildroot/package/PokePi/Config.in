@@ -3,4 +3,4 @@ config BR2_PACKAGE_POKEPI
     help
         PokePi package.
 
-        http://example.com
+        http://github.com/bastien8060/PokePi
