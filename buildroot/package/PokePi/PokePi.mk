@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-POKEPI_SITE = $(call github,bastien8060,PokePi)
+POKEPI_SITE = $(call github,bastien8060,PokePi,main)
 POKEPI_GIT_SUBMODULES = YES
 
 define POKEPI_BUILD_CMDS
