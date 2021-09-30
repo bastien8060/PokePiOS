@@ -13,7 +13,7 @@ Download repo + navigate to it:
 
 ```sh
 git clone https://github.com/bastien8060/PokePiOS
-cd PokePi
+cd PokePiOS
 ```
 
 Change to the top-level Buildroot directory:
