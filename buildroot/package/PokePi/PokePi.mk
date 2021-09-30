@@ -5,7 +5,7 @@
 ################################################################################
 
 POKEPI_VERSION = main
-POKEPI_SITE = https://github.com/bastien8060/PokePi
+POKEPI_SITE = git://github.com/bastien8060/PokePi
 
 define POKEPI_BUILD_CMDS
     rm -rf $(@D)
