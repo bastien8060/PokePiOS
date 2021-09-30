@@ -28,6 +28,8 @@ Use initialized configurations to compile PokePi:
 make all
 ```
 
+> If prompted by an error (Like a permission error), you could try ```chmod +x . -R```, which fixes permissions on the files
+
 This may take anywhere from 10min to 30min or even a couple hours to do from scratch, depending on the speed of your machine.
 
 ## Run on Raspberry Pi
