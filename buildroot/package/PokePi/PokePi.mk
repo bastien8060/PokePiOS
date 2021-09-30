@@ -5,8 +5,10 @@
 ################################################################################
 
 POKEPI_SITE = $(call github,bastien8060,PokePi)
+POKEPI_GIT_SUBMODULES = YES
 
 define POKEPI_BUILD_CMDS
+    git submodule update --init --recursive
     $(MAKE) CC="$(TARGET_CC)" LD="$(TARGET_LD)" -C $(@D)
 endef
 
