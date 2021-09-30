@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2020.02.2-gfd657a15-dirty Configuration
+# Buildroot 2020.02.2-g295417a9-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_9=y
@@ -660,7 +660,7 @@ BR2_PACKAGE_PULSEAUDIO_HAS_ATOMIC=y
 #
 # unrar needs a toolchain w/ C++, wchar, threads
 #
-# BR2_PACKAGE_UNZIP is not set
+BR2_PACKAGE_UNZIP=y
 # BR2_PACKAGE_XZ is not set
 BR2_PACKAGE_ZIP=y
 # BR2_PACKAGE_ZSTD is not set
@@ -712,7 +712,7 @@ BR2_PACKAGE_GOOGLE_BREAKPAD_ARCH_SUPPORTS=y
 # latencytop needs a toolchain w/ wchar, threads
 #
 # BR2_PACKAGE_LMBENCH is not set
-# BR2_PACKAGE_LSOF is not set
+BR2_PACKAGE_LSOF=y
 BR2_PACKAGE_LTP_TESTSUITE_ARCH_SUPPORTS=y
 # BR2_PACKAGE_LTP_TESTSUITE is not set
 BR2_PACKAGE_LTRACE_ARCH_SUPPORTS=y
@@ -801,7 +801,7 @@ BR2_PACKAGE_CMAKE_ARCH_SUPPORTS=y
 #
 # findutils needs a toolchain w/ wchar
 #
-# BR2_PACKAGE_FLEX is not set
+BR2_PACKAGE_FLEX=y
 
 #
 # gawk needs a toolchain w/ wchar
@@ -955,7 +955,7 @@ BR2_PACKAGE_MAKE=y
 # BR2_PACKAGE_ASCII_INVADERS is not set
 # BR2_PACKAGE_CHOCOLATE_DOOM is not set
 # BR2_PACKAGE_FLARE_ENGINE is not set
-# BR2_PACKAGE_GNUCHESS is not set
+BR2_PACKAGE_GNUCHESS=y
 # BR2_PACKAGE_LBREAKOUT2 is not set
 # BR2_PACKAGE_LTRIS is not set
 
@@ -1177,7 +1177,7 @@ BR2_PACKAGE_DBUS=y
 # eudev needs a toolchain w/ wchar, dynamic library
 #
 # BR2_PACKAGE_EVEMU is not set
-# BR2_PACKAGE_EVTEST is not set
+BR2_PACKAGE_EVTEST=y
 # BR2_PACKAGE_FAN_CTRL is not set
 # BR2_PACKAGE_FCONFIG is not set
 BR2_PACKAGE_FLASHROM_ARCH_SUPPORTS=y
@@ -1208,7 +1208,18 @@ BR2_PACKAGE_INPUT_EVENT_DAEMON=y
 # BR2_PACKAGE_LINUX_SERIAL_TEST is not set
 # BR2_PACKAGE_LINUXCONSOLETOOLS is not set
 # BR2_PACKAGE_LIRC_TOOLS is not set
-# BR2_PACKAGE_LM_SENSORS is not set
+BR2_PACKAGE_LM_SENSORS=y
+
+#
+# lm-sensors tools
+#
+BR2_PACKAGE_LM_SENSORS_SENSORS=y
+# BR2_PACKAGE_LM_SENSORS_FANCONTROL is not set
+# BR2_PACKAGE_LM_SENSORS_PWMCONFIG is not set
+
+#
+# sensors-detect needs perl
+#
 
 #
 # lshw needs a toolchain w/ C++, wchar
@@ -2327,8 +2338,8 @@ BR2_PACKAGE_LIBEASTL_ARCH_SUPPORTS=y
 # BR2_PACKAGE_LIBEASTL is not set
 # BR2_PACKAGE_LIBEE is not set
 # BR2_PACKAGE_LIBEV is not set
-# BR2_PACKAGE_LIBEVDEV is not set
-# BR2_PACKAGE_LIBEVENT is not set
+BR2_PACKAGE_LIBEVDEV=y
+BR2_PACKAGE_LIBEVENT=y
 BR2_PACKAGE_LIBFFI=y
 
 #
