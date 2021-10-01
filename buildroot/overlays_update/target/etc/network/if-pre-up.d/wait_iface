@@ -4,11 +4,9 @@
 # and we need to configure it, wait until it appears, but not too
 # long either. IF_WAIT_DELAY is in seconds.
 
-exit 1
-
 if [ "${IF_WAIT_DELAY}" -a ! -e "/sys/class/net/${IFACE}" ]; then
     printf "Waiting for interface %s to appear" "${IFACE}"
-    while [ 0 -gt 0 ]; do
+    while [ 1 -gt 0 ]; do
         if [ -e "/sys/class/net/${IFACE}" ]; then
             printf "\n"
             exit 0

@@ -3,6 +3,8 @@
 # load modules
 #
 
+modprobe dwc2
+modprobe g_ether
 modprobe evdev
 modprobe tun
 modprobe ftdi_sio
