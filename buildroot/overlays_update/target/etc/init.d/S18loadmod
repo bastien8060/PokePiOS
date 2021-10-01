@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# load modules
+#
+
+modprobe evdev
+modprobe tun
+modprobe ftdi_sio
