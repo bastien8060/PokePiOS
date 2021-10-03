@@ -1,0 +1,36 @@
+if [[ $1 == "init" ]]; then
+	if [[ $2 == "network" ]]; then
+		mkdir -p /run/network
+		if ! lsmod | grep "dwc2" &> /dev/null ; then
+			modprobe dwc2;
+		fi
+		if ! lsmod | grep "g_ether" &> /dev/null ; then
+			modprobe g_ether;
+		fi
+		ifup -a
+	else
+		echo "Unexpected Argument: $2";
+		exit 1;
+	fi
+
+elif [[ $1 == "clear" ]]; then
+
+	if [[ $2 == "network" ]] ; then
+		mkdir -p /run/network	
+		ifdown -a
+	else
+		echo "Unexpected Argument: $2";
+		exit 1;
+	fi
+
+else
+
+	echo "Unexpected Argument: $1";
+	exit  1;
+fi
+
+exit 0;
+
+
+
+
