@@ -9,7 +9,15 @@ To ~~run it~~, you will first need to build it.
 
 ## Build
 
-Download repo + navigate to it:
+You will need to install the command hg, provided under the package 'mercurial', in order to build PokePiOS.
+
+You can install it in Ubuntu/Debian distros, with:
+
+```sh
+sudo apt-get install mercurial
+```
+
+Then, you need to download the repo + navigate to it:
 
 ```sh
 git clone https://github.com/bastien8060/PokePiOS
@@ -30,7 +38,7 @@ make all
 
 > If prompted by an error (Like a permission error), you could try ```chmod +x . -R```, which fixes permissions on the files
 
-This may take anywhere from 10min to 30min or even a couple hours to do from scratch, depending on the speed of your machine.
+This may take anywhere from 10min to 30min or even a couple hours to compile from scratch, depending on the speed of your machine.
 
 ## Run on Raspberry Pi
 After building it, you can flash the file `output/images/sdcard.img` to an sdcard, then boot it with a Raspberry Pi 3b/3b+.

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sleep 3;
+echo "DONE"
+/usr/bin/psplash-write "QUIT"

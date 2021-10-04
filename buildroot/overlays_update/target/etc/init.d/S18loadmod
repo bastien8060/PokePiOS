@@ -6,3 +6,5 @@
 modprobe evdev
 modprobe tun
 modprobe ftdi_sio
+
+/usr/bin/psplash-write "PROGRESS 40"
