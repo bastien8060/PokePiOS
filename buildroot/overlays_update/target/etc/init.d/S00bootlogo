@@ -1,4 +1,5 @@
 #! /bin/sh
+modprobe fbtft_device name=er_tftm070_5 &> /etc/modlog
 
 NAME=psplash
 DAEMON=/usr/bin/$NAME

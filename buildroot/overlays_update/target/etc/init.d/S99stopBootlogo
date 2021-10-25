@@ -3,3 +3,4 @@
 sleep 3;
 echo "DONE"
 /usr/bin/psplash-write "QUIT"
+dmesg >> /etc/modlog
